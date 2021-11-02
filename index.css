@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+.container,
+.another-container {
+	padding: 17px;
+}
+
+.main-heading {
+	color: #303780;
+	margin-bottom: 30px;
+}
+
+label {
+	color: #9e7e85;
+	font-size: 14px;
+	margin-bottom: 12px;
+}
+
+select,
+input {
+	border: 1px solid #e9e9e9;
+	height: 35px;
+	margin-bottom: 9px;
+	margin-top: 7px;
+	width: 90%;
+	border-radius: 4px;
+}
+
+input:focus {
+	outline: none !important;
+	border-color: #c5e0fc;
+	box-shadow: 0 0 3px #719ece;
+}
+
+.rate {
+	width: 30%;
+}
+
+.term {
+	width: 30%;
+}
+
+select {
+	outline: none;
+	background-color: #ffffff;
+	height: 35px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.btn,
+.on-focus-styled:focus {
+	outline: none !important;
+	border-color: #c5e0fc;
+	box-shadow: 0 0 3px #719ece;
+}
+
+.btn {
+	margin-top: 10px;
+	height: 36px;
+	outline: none;
+	border-radius: 4px;
+	padding: 10px;
+	border: none;
+	background-color: #7083df;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+.range {
+	cursor: pointer;
+	height: 1px;
+	outline: none;
+	background: #d1d5ed;
+	width: 55%;
+	margin-right: 4%;
+}
+
+.payment {
+	height: 85px;
+	background-color: #d1d5ed;
+	border-radius: 7px;
+	padding-left: 20px;
+	padding-top: 4px;
+	margin-bottom: 20px;
+}
+
+.additional-payment {
+	height: 85px;
+	background-color: #d1d5ed;
+	border-radius: 7px;
+	padding-left: 20px;
+	padding-top: 4px;
+	margin-bottom: 20px;
+}
+
+.payment-text {
+	margin-bottom: 0px;
+	color: #b5b5b8;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.payment-value {
+	font-size: 27px;
+	font-weight: bold;
+}
+
+.row {
+	list-style: none;
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+.recceipt-container ul.row li {
+	flex: 1;
+	padding: 10px;
+	border-bottom: 1px solid #f0f0f0;
+	margin-bottom: 0px;
+}
+
+.row-header {
+	background-color: #eff5f9;
+	border-radius: 5px;
+}
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 20px;
+}
+
+.header {
+	font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+	.main-container {
+		display: flex;
+	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+	}
+
+	.another-container {
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+		order: 1;
+	}
+}
