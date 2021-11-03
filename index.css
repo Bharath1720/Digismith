@@ -144,7 +144,9 @@ ul {
 	font-weight: bold;
 }
 
-@media screen and (min-width: 1024px) {
+/* Media Queries */
+
+/* @media screen and (min-width: 1024px) {
 	.main-container {
 		display: flex;
 	}
@@ -161,4 +163,4 @@ ul {
 		width: 50%;
 		order: 1;
 	}
-}
+} */
